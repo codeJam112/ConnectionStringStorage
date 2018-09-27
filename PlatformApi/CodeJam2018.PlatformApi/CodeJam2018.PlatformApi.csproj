@@ -1,0 +1,22 @@
+<Project Sdk="Microsoft.NET.Sdk.Web">
+
+  <PropertyGroup>
+    <TargetFramework>netcoreapp2.1</TargetFramework>
+  </PropertyGroup>
+
+  <ItemGroup>
+    <Folder Include="wwwroot\" />
+  </ItemGroup>
+
+  <ItemGroup>
+    <PackageReference Include="Microsoft.AspNetCore.App" />
+  </ItemGroup>
+
+  <ItemGroup>
+    <ProjectReference Include="..\..\Api.ErrorHandling\Api.ErrorHandling.csproj" />
+    <ProjectReference Include="..\CodeJam2018.Platform.BusinessLogic\CodeJam2018.Platform.BusinessLogic.csproj" />
+    <ProjectReference Include="..\CodeJam2018.Platform.Dal.Redis\CodeJam2018.Platform.Dal.Redis.csproj" />
+    <ProjectReference Include="..\CodeJam2018.PlatformTypes\CodeJam2018.PlatformTypes.csproj" />
+  </ItemGroup>
+
+</Project>

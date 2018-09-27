@@ -1,0 +1,55 @@
+﻿
+Microsoft Visual Studio Solution File, Format Version 12.00
+# Visual Studio 15
+VisualStudioVersion = 15.0.27703.2042
+MinimumVisualStudioVersion = 10.0.40219.1
+Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "CodeJam2018.PlatformApi", "CodeJam2018.PlatformApi\CodeJam2018.PlatformApi.csproj", "{25DAAC3C-B354-48EA-9826-5644365E20F3}"
+EndProject
+Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "CodeJam2018.PlatformTypes", "CodeJam2018.PlatformTypes\CodeJam2018.PlatformTypes.csproj", "{241B0E28-2F56-4016-A1B1-26BB209F028D}"
+EndProject
+Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "Api.ErrorHandling", "..\Api.ErrorHandling\Api.ErrorHandling.csproj", "{57F6CB2A-CE9B-4892-BA89-33DA978DAE85}"
+EndProject
+Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "Api.ErrorHandling.Models", "..\Api.ErrorHandling.Models\Api.ErrorHandling.Models.csproj", "{65E76817-275B-45B8-B142-DFB0A1DAF608}"
+EndProject
+Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "CodeJam2018.Platform.BusinessLogic", "CodeJam2018.Platform.BusinessLogic\CodeJam2018.Platform.BusinessLogic.csproj", "{A98151CE-AC87-4ADF-8ACB-18620605CAEC}"
+EndProject
+Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "CodeJam2018.Platform.Dal.Redis", "CodeJam2018.Platform.Dal.Redis\CodeJam2018.Platform.Dal.Redis.csproj", "{F9A404C6-6473-4E84-9630-9AFFD2172459}"
+EndProject
+Global
+	GlobalSection(SolutionConfigurationPlatforms) = preSolution
+		Debug|Any CPU = Debug|Any CPU
+		Release|Any CPU = Release|Any CPU
+	EndGlobalSection
+	GlobalSection(ProjectConfigurationPlatforms) = postSolution
+		{25DAAC3C-B354-48EA-9826-5644365E20F3}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{25DAAC3C-B354-48EA-9826-5644365E20F3}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{25DAAC3C-B354-48EA-9826-5644365E20F3}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{25DAAC3C-B354-48EA-9826-5644365E20F3}.Release|Any CPU.Build.0 = Release|Any CPU
+		{241B0E28-2F56-4016-A1B1-26BB209F028D}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{241B0E28-2F56-4016-A1B1-26BB209F028D}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{241B0E28-2F56-4016-A1B1-26BB209F028D}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{241B0E28-2F56-4016-A1B1-26BB209F028D}.Release|Any CPU.Build.0 = Release|Any CPU
+		{57F6CB2A-CE9B-4892-BA89-33DA978DAE85}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{57F6CB2A-CE9B-4892-BA89-33DA978DAE85}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{57F6CB2A-CE9B-4892-BA89-33DA978DAE85}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{57F6CB2A-CE9B-4892-BA89-33DA978DAE85}.Release|Any CPU.Build.0 = Release|Any CPU
+		{65E76817-275B-45B8-B142-DFB0A1DAF608}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{65E76817-275B-45B8-B142-DFB0A1DAF608}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{65E76817-275B-45B8-B142-DFB0A1DAF608}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{65E76817-275B-45B8-B142-DFB0A1DAF608}.Release|Any CPU.Build.0 = Release|Any CPU
+		{A98151CE-AC87-4ADF-8ACB-18620605CAEC}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{A98151CE-AC87-4ADF-8ACB-18620605CAEC}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{A98151CE-AC87-4ADF-8ACB-18620605CAEC}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{A98151CE-AC87-4ADF-8ACB-18620605CAEC}.Release|Any CPU.Build.0 = Release|Any CPU
+		{F9A404C6-6473-4E84-9630-9AFFD2172459}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{F9A404C6-6473-4E84-9630-9AFFD2172459}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{F9A404C6-6473-4E84-9630-9AFFD2172459}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{F9A404C6-6473-4E84-9630-9AFFD2172459}.Release|Any CPU.Build.0 = Release|Any CPU
+	EndGlobalSection
+	GlobalSection(SolutionProperties) = preSolution
+		HideSolutionNode = FALSE
+	EndGlobalSection
+	GlobalSection(ExtensibilityGlobals) = postSolution
+		SolutionGuid = {68081F10-7126-4E0C-B530-A5AF4F4510BC}
+	EndGlobalSection
+EndGlobal

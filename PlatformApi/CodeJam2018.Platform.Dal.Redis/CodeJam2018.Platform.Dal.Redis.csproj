@@ -1,0 +1,11 @@
+<Project Sdk="Microsoft.NET.Sdk">
+
+  <PropertyGroup>
+    <TargetFramework>netcoreapp2.1</TargetFramework>
+  </PropertyGroup>
+
+  <ItemGroup>
+    <ProjectReference Include="..\CodeJam2018.PlatformTypes\CodeJam2018.PlatformTypes.csproj" />
+  </ItemGroup>
+
+</Project>
